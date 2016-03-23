@@ -1,0 +1,25 @@
+/* 
+ * Copyright (C) 2015 ATM Consulting <support@atm-consulting.fr>
+ *
+ * This program and files/directory inner it is free software: you can 
+ * redistribute it and/or modify it under the terms of the 
+ * GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+1. Créez le module avec comme nom votre login selon la procédure déjà vu
+2. Clonez le dans votre répertoire et remonté son contenu complet à la racine $mv monModule/* . & $mv monModule/.git . 
+3. Copiez simple.php, class/simple.class.php, script/create-maj-base.php depuis le module simple
+4. Mettre le numéro de votre groupe et mettre à jour les liens /simple/ par /votrelogin/ dans les fichiers adéquats
+ - core/module/modSimple.class.php
+ - class/simple.class.php
+ - script/create-maj-base.php
