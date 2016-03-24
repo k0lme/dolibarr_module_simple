@@ -1,8 +1,8 @@
 
-1. Créez le module avec comme nom votre login selon la procédure déjà vu
+1. Créez le module avec comme nom votre login selon la procédure déjà vue
 	- clonez également ou ouvrez sous github le projet https://github.com/Casir2016/dolibarr_module_simple
 	
-2. Clonez le dans votre répertoire et remonté son contenu complet à la racine $mv monModule/* . & $mv monModule/.git . 
+2. Clonez le dans votre répertoire et remontez son contenu complet à la racine $mv monModule/* . & $mv monModule/.git . 
 
 3. Copiez simple.php, class/simple.class.php, script/create-maj-base.php depuis le module simple
 	- copiez également la partie à copier (cf. TODO) du fichier core/module/modSimple.class.php et class/actions_simple.class.php
@@ -12,12 +12,12 @@
  - class/simple.class.php
  - script/create-maj-base.php
  
-5. La gestion de base permet de charger un objet relatif à une contact et d'enregistrer un titre lié (method loadBy)
+5. La gestion de base permet de charger un objet relatif à un contact et d'enregistrer un titre lié (method loadBy)
  - Ajoutez un champs note à votre classe et faites en sorte qu'il se sauvegarde
  - Fichier simple.php et class/simple.class.php
  
 6. Allez dans core/triggers/interface_99_modsimple_simpletrigger.class.php
-	- ajoutez une mise à jour du poste du contact si vide, mettez y une valeur "VIDE!" sur l'évènement mise à jour d'un fiche
+	- ajoutez une mise à jour du poste du contact si vide, mettez y une valeur "VIDE!" sur l'évènement mis à jour d'un fiche
 	
 7. Allez dans class/actions_MonModule.class.php
-	- Dans la methode formObjectOptions, faites ce qui est demandé (sachant qu'un var_dump() de $object peut vous être utile )
+	- Dans la méthode formObjectOptions, faites ce qui est demandé (sachant qu'un var_dump() de $object peut vous être utile )
